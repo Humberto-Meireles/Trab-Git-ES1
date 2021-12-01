@@ -1,9 +1,11 @@
-function sum(){
-    //TODO: Implementar soma
+// Função que soma dois números
+function sum(a, b){
+    return a + b;
 }
 
-function sub(){
-    //TODO: Implementar subtração
+// Função que subtrai dois números
+function sub(a, b){
+    return a - b;
 }
 
 function mult(){
