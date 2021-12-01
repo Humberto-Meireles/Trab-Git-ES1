@@ -8,10 +8,12 @@ function sub(a, b){
     return a - b;
 }
 
-function mult(){
-    //TODO: Implementar multiplicação
+// Função que multiplica dois números
+function mult(a, b){
+    return a * b;
 }
 
-function div(){
-    //TODO: Implementar divisão
+// Função que divide dois números
+function div(a, b){
+    return a / b;
 }
