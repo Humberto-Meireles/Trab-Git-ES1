@@ -1,0 +1,71 @@
+  463  git clone git@github.com:Humberto-Meireles/Trab-Git-ES1.git
+  464  ls -l
+  465  cd Trab-Git-ES1/
+  466  code .
+  467  ls -l
+  468  ls -l | grep
+  469  ls -l | grep 214
+  470  echo "humberto"
+  471  echo "humberto" | grep berto
+  472  cat package.json 
+  473  yarn add @commitlint/config-conventional @commitlint/cli -D
+  474  npm install @commitlint/config-conventional @commitlint/cli -D
+  475  cat package.json 
+  476  echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
+  477  cat commitlint.config.js 
+  478  echo "teste" | npm commitlint
+  479  echo "teste" | commitlint
+  480  npm install --global yarn
+  481  sudo npm install --global yarn
+  482  echo "teste" | yarn commitlint
+  483  node -v
+  484  sudo n latest
+  485  sudo npm install n -g
+  486  sudo npm install -g npm
+  487  sudo n latest
+  488  sudo n stable
+  489  echo "teste" | yarn commitlint
+  490  ls -l
+  491  rm -rf node_modules/ package-lock.json 
+  492  yarn install
+  493  echo "teste" | yarn commitlint
+  494  echo "feat: teste" | yarn commitlint
+  495  yarn add husky -D
+  496  cat package.json 
+  497  yarn husky install
+  498  yarn test
+  499  yarn hello
+  500  yarn install
+  501  yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
+  502  git add .
+  503  git commit -m "qualquer coisa"
+  504  git commit -m "chore: add commitlint and husky"
+  505  yarn add commitizen -D
+  506  yarn commitizen init cz-conventional-changelog --yarn --dev --exact
+  507  git add .
+  508  yarn hello
+  509  yarn commit
+  510  git push
+  511  git branch
+  512  git stash
+  513  git checkout -b feature/sum-sub-operations
+  514  git stash apply
+  515  git add .
+  516  yarn commit 
+  517  git push
+  518  git push -u origin feature/sum-sub-operations 
+  519  touch README.md
+  520  git branch
+  521  git stash 
+  522  git checkout master
+  523  git pull
+  524  git checkout -b feature/readme-file
+  525  git stash apply
+  526  git add .
+  527  yarn commit 
+  528  git push -u origin feature/readme-file 
+  529  git tag -a v1.0.0 -m "first release"
+  530  git push --tags
+  531  git checkout master
+  532  git pull
+  533  history > LOG_Humberto-Meireles
